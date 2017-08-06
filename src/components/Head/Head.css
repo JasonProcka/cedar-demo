@@ -1,0 +1,21 @@
+.head {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.cedar-tree {
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.cedar-logo {
+  text-align: center;
+  color: #2ecc71;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+}
