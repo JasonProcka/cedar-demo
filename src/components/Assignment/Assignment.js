@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+// Assignmnent components
+import MultipleChoice from './components/MultipleChoice/MultipleChoice'
 // css
 import './Assignment.css'
 
@@ -13,9 +15,10 @@ class Assignment extends Component {
           </div>
           <div className="assignment-body">
             <div className="assignment-info">
-            <h3>Chemistry Q2 Test</h3>
-            <p>Everyone relax and take a deep breath! This will be a piece of cake.</p>
+              <h3>Chemistry Q2 Test</h3>
+              <p>Everyone relax and take a deep breath! This will be a piece of cake.</p>
             </div>
+            <MultipleChoice componentNumber="1" question="How many protons are in Carbon?" options={[4, 9, 12, 6]} />
           </div>
         </div>
       </div>
