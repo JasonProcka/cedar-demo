@@ -19,6 +19,7 @@ class Assignment extends Component {
               <p>Everyone relax and take a deep breath! This will be a piece of cake.</p>
             </div>
             <MultipleChoice componentNumber="1" question="How many protons are in Carbon?" options={[4, 9, 12, 6]} />
+            <MultipleChoice componentNumber="1" question="What is Jason's last name?" options={['Richards', 'Michael', 'Browling', 'Procka']} />
           </div>
         </div>
       </div>

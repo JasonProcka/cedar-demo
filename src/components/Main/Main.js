@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Home from '../Home/Home'
+import BooksIntro from '../BooksIntro/BooksIntro'
+import BookSearch from '../BookSearch/BookSearch'
 import Start from '../Start/Start'
 import Assignment from '../Assignment/Assignment'
 
@@ -10,6 +12,8 @@ class Main extends Component {
       <main>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/books-intro" component={BooksIntro} />
+          <Route path="/books" component={BookSearch} />
           <Route path="/start" component={Start} />
           <Route path="/assignment" component={Assignment} />
         </Switch>

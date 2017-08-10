@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="home">
         <div className="intro-content">
           <h2>Create intelligent assignments with artificial intelligence</h2>
-          <Link to="/start">Get Started</Link>
+          <Link to="/books-intro">Get Started</Link>
         </div>
       </div>
     );
